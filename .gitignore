@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# OS generated files
+.directory
+
+# Compiled source
+*.class
+*.dll
+*.exe
+*.o
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+*.swp
+
+# Miscellaneous
+*.tgz
+*.gz
+*.zip
