@@ -392,7 +392,7 @@ h6,
 }
 
 .mil-fs90 {
-  font-size: calc(1rem + 3.5vw);
+  font-size: calc(3vw);
 }
 
 .mil-light {
@@ -1199,7 +1199,7 @@ top panel
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 90px;
+  width: 30%;
   height: 90px;
   font-family: "Unbounded", sans-serif;
   font-weight: 400;
@@ -1207,6 +1207,73 @@ top panel
   background-color: #FF4C33;
   color: #FFFFFF;
 }
+
+@media (max-width: 992px) {
+
+  .mil-top-panel .mil-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 50%;
+    height: 90px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: #FF4C33;
+    color: #FFFFFF;
+  }
+}
+
+@media (max-width: 772px) {
+
+  .mil-top-panel .mil-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 60%;
+    height: 90px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    background-color: #FF4C33;
+    color: #FFFFFF;
+  }
+}
+
+@media (max-width: 546px) {
+
+  .mil-top-panel .mil-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 70%;
+    height: 90px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #FF4C33;
+    color: #FFFFFF;
+  }
+}
+
 
 @media (max-width: 992px) {
   .mil-top-panel {
